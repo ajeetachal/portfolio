@@ -1,0 +1,106 @@
+.profile {
+    background-color: #263238;
+    border-radius: 12px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    margin: 0.5rem;
+    box-shadow: #2C3E50 rgb( 5px, 5px, 5px);
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+  }
+  img{
+    border-radius: 55%;
+    border: #87898b solid 0.5px;
+    padding: 5px;
+    height: 8rem;
+  }
+  #hire{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 25px;
+    align-items: center;
+    border: #87898b solid 0.5px;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 1rem;
+    margin-left: 5px;
+    background-color: f7b500;
+  }
+  #hire:hover {
+    background-color: #f7b500;
+    color: #fff;
+  }
+  .part3{
+    display: grid;
+  }
+  .part1 p{
+    display: grid;
+    justify-content: left;
+    margin: 0;
+  }
+  .part1 h2{
+    margin-top: 3rem ;
+    font-weight: 700;
+  }
+ 
+  .part2{
+    display: grid;
+    justify-content: space-between;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: #8b8987 solid 0.5px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: #f7b500;
+  }
+  
+  .icon {
+    color: white;
+  }
+  
+  h2{
+    font-size: 29px;
+    font-weight: 200;
+    width: 24rem;
+  }
+  @media only screen and (max-width: 700px) 
+{ 
+  .profile {
+    background-color: #002c2b;
+    border-radius: 12px;
+    padding: 10px;
+    position: sticky;
+    top: 5px;
+    display: flexbox;
+    margin: 0;
+  }
+  h2{
+    font-size: 19px;
+    font-weight: 200;
+    width: fit-content;
+  }
+  .social-icon {
+    display: none;
+  }
+  .tag{
+    display: none ;
+  }
+}

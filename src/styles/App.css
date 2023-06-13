@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  height: 100vh;
+  margin: 1rem;
+  background-color: aqua;
+  padding: 0;
+  }
+  
+  .sections {
+    width: 99%;
+    border: 0.5px solid #000000;
+    margin: 10px;
+    border-radius: 12px;
+    height: fit-content;
+   
+  }
+  
+  .content-menu {
+    width: 90%;
+    padding: 20px;
+    overflow-y: scroll;
+   
+  }
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .menu li:hover {
+    cursor: pointer;
+  }
+  
+  .ic {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #fff;
+  }
+  
+  .ic:hover {
+    background-color: yellow;
+  }
+  

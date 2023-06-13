@@ -1,0 +1,86 @@
+.comment-container {
+    border: black solid 0.5px;
+    margin: 1rem;
+    padding: 5rem;
+    justify-content: center;
+    justify-items: center;
+    font-family: inter, sans-serif;   
+    background-color: #363434;
+    border-radius: 12PX;
+    color: aliceblue;
+    }
+    .comment{
+        border: rgb(255, 255, 255) solid 0.5px;
+        width: 70%;
+        justify-content: left;
+        align-items: self-start;
+        border-radius: 12px;
+        padding: 0.5rem;
+        margin-left: 15%;
+       font-weight: 300;
+
+    }
+    .comment:hover{
+        border: #f7b500 solid 0.5px;
+    }
+    .profiles img{
+        width: 4rem;
+        height: 4rem;
+        border: #f7b500 solid 0.5px;
+        margin-left: -80%;
+        margin-bottom: -1rem;
+    }
+    .profiles{
+        padding: 2rem;
+        justify-content: left;
+        justify-self: left;
+        text-align: center;
+        border-radius: 12px;
+        margin-bottom: -2rem;        
+    }
+    .details{
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        line-height: 8px;
+    }
+    .details h2, p{
+        justify-content: center;
+        text-align: center;
+        width: fit-content;
+        height: fit-content;
+        margin-left: 2rem;
+    }
+    .details h2{
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 1.5rem;
+    }
+    .details p{
+        font-size: 12px;
+        font-weight: 300;
+        color: #f7b500;
+    }
+    .comment-navigation{
+        margin-left: 15%;
+        margin-top: 1rem;
+    }
+    .comment-navigation button{
+      width: fit-content;
+      padding: 1rem;
+      margin: 0.5rem 0.5rem;
+    }
+    button:hover{
+        background-color: #f7b500;
+        color: aliceblue;
+    }
+    @media only screen and (max-width: 700px) 
+    { 
+      .comment-container {
+        margin: 0.2rem;
+        padding: 5px;
+       
+        }
+     
+     
+    }
